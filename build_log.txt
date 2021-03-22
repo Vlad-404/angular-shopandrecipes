@@ -1,0 +1,8 @@
+Version 1
+    [x] Create Header component
+    [x] Create Recipes component
+        [x] Create Recipe Detail component
+        [x] Create Recipe List component
+            [x] Create Recipe Item component
+    [x] Create Shopping List component
+        [x] Create Shopping edit component
