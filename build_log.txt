@@ -1,5 +1,8 @@
+Version 7
+[] Add shopping list component
+
 Version 6
-[] Add Recipe details section
+[x] Add Recipe details section
 
 Version 5
 [x] Add recipe list title
