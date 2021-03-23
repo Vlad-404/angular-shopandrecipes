@@ -1,5 +1,7 @@
 # Recipesandshoplist
 
+For Version builds, see [build_log.txt](build_log.txt)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
 
 ## Development server

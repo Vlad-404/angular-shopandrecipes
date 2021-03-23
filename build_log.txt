@@ -1,5 +1,10 @@
+Version 8
+[] Add shopping list edit section
+
 Version 7
-[] Add shopping list component
+[x] Add shopping list component
+[x] Create Ingredients model
+[x] Make Ingredients model accessible for all apps
 
 Version 6
 [x] Add Recipe details section
