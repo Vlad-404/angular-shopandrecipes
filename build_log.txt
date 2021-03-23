@@ -1,3 +1,6 @@
+Version 4
+[x] Add Recipe model
+
 Version 3
 [x] Addand style the navbar
 
