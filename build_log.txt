@@ -1,3 +1,9 @@
+Version 6
+[] Add Recipe details section
+
+Version 5
+[x] Add recipe list title
+
 Version 4
 [x] Add Recipe model
 
