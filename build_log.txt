@@ -1,5 +1,5 @@
 Version 8
-[] Add shopping list edit section
+[x] Add shopping list edit section
 
 Version 7
 [x] Add shopping list component
