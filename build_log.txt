@@ -1,3 +1,9 @@
+Version 11
+[] Make clicking on a recipe shows recipe details
+
+Version 10
+[x] Pass Recipes down from Recipe List component to Recipe Item
+
 Version 9
 [x] Enable navigation
     [x] make links in the header show/hide selected elements

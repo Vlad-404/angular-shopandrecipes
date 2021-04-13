@@ -1,1 +1,16 @@
-<p class="ml-4">recipe-item works! This is empty for now.</p>
+<a href="#" 
+    class="list-group-item">
+    <div class="d-flex w-100 justify-content-between">
+        <div>
+            <h4 class="list-group-item-heading">{{ recipe.name }}</h4>
+            <p class="list-group-item-text text-dark small">{{ recipe.description }}</p>
+        </div>
+        <div>
+            <img 
+                [src]="recipe.imagePath" 
+                alt="{{ recipe.name }} image" 
+                class="img-responsive" 
+                style="max-height: 90px;">
+        </div>
+    </div>
+</a>

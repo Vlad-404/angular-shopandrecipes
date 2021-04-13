@@ -7,7 +7,7 @@ import { Component, OnInit, Output, EventEmitter, } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  @Output() listAndRecipesVisibility = new EventEmitter<boolean[]>();
+  @Output() listOrRecipe = new EventEmitter<boolean[]>();
   showRecipes: boolean = true;
   showList: boolean = false;
   visibility = [this.showRecipes, this.showList];
@@ -38,7 +38,7 @@ export class HeaderComponent implements OnInit {
   componentVisibility() {
     this.visibility[0] = this.showRecipes;
     this.visibility[1] = this.showList;
-    this.listAndRecipesVisibility.emit(this.visibility);
+    this.listOrRecipe.emit(this.visibility);
   }
   
 }
