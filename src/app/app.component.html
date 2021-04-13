@@ -1,10 +1,15 @@
-<app-header></app-header>
+<app-header (listAndRecipesVisibility)="listAndRecipesVisibility($event)"></app-header>
 
 <div class="container">
   <div class="row mt-5">
     <div class="col-md-12">
-      <app-recipes></app-recipes>
-      <app-shopping-list></app-shopping-list>
+      <app-recipes 
+        *ngIf="showRecipes">
+      </app-recipes>
+
+      <app-shopping-list 
+        *ngIf="showList">
+      </app-shopping-list>
     </div>
   </div>
 </div>

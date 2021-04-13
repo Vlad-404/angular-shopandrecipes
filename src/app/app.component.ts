@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'recipesandshoplist';
+  showRecipes: boolean = true;
+  showList: boolean = true;
+
+  listAndRecipesVisibility(visibilityArr: boolean[]) {
+    console.log('APP - ' + visibilityArr);
+    this.showRecipes = visibilityArr[0];
+    this.showList = visibilityArr[1];
+  }
+
+  showAllComponents() {
+    this.showRecipes = true;
+    this.showList = true;
+  }
 }

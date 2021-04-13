@@ -1,3 +1,7 @@
+Version 9
+[x] Enable navigation
+    [x] make links in the header show/hide selected elements
+
 Version 8
 [x] Add shopping list edit section
 
