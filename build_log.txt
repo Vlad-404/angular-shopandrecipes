@@ -1,5 +1,8 @@
+Version 12
+[] Enable adding to the shopping list
+
 Version 11
-[] Make clicking on a recipe shows recipe details
+[x] Make clicking on a recipe shows recipe details
 
 Version 10
 [x] Pass Recipes down from Recipe List component to Recipe Item

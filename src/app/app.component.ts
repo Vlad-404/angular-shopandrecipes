@@ -11,7 +11,6 @@ export class AppComponent {
   showList: boolean = true;
 
   listAndRecipesVisibility(visibilityArr: boolean[]) {
-    console.log('APP - ' + visibilityArr);
     this.showRecipes = visibilityArr[0];
     this.showList = visibilityArr[1];
   }
