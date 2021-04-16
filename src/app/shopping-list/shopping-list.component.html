@@ -1,6 +1,8 @@
 <div class="row pl-4">
     <div class="col-10">
-        <app-shopping-edit></app-shopping-edit>
+        <app-shopping-edit
+            (addingIngredient)="addToIngredients($event)">
+        </app-shopping-edit>
         <ul class="list-group">
             <a
                 class="list-group-item" 

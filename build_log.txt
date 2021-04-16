@@ -1,5 +1,8 @@
+Version 13
+[] Enabling the dropdown mobile menu
+
 Version 12
-[] Enable adding to the shopping list
+[x] Enable adding to the shopping list
 
 Version 11
 [x] Make clicking on a recipe shows recipe details
